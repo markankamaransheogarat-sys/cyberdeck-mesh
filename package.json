@@ -1,0 +1,24 @@
+{
+  "name": "@cyberdeck/mesh-core",
+  "version": "1.0.0",
+  "description": "Autonomous Zero-Infrastructure Tactical Cyberdeck & P2P Acoustic/BLE Mesh Network",
+  "author": "Konstantin (@markankamaransheogarat-sys)",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node --test dist/**/*.test.js || tsx --test core/tests/**/*.test.ts"
+  },
+  "keywords": [
+    "cyberdeck",
+    "p2p-mesh",
+    "acoustic-modem",
+    "ultrasonic",
+    "bluetooth-le",
+    "offline-first",
+    "tactical-hud",
+    "fsk",
+    "x25519"
+  ]
+}
